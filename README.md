@@ -1,4 +1,4 @@
-** Converted model for GPTQ from https://huggingface.co/lmsys/vicuna-13b-delta-v0 **
+** Converted model for GPTQ from https://huggingface.co/lmsys/vicuna-13b-delta-v0. This is the best local model I've ever tried. I hope someone makes a version based on the uncensored dataset...**
 
 * IMPORTANT NOTE: Use the .safetensors model unless it does not work. In which case, try .pt.
 

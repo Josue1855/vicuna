@@ -1,9 +1,33 @@
 {
-  "bos_token": "",
-  "eos_token": "",
-  "model_max_length": 2048,
-  "padding_side": "right",
-  "special_tokens_map_file": "/home/gcpuser/hf-output/llama-13b/special_tokens_map.json",
+  "add_bos_token": true,
+  "add_eos_token": false,
+  "bos_token": {
+    "__type": "AddedToken",
+    "content": "<s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "clean_up_tokenization_spaces": false,
+  "eos_token": {
+    "__type": "AddedToken",
+    "content": "</s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "model_max_length": 1000000000000000019884624838656,
+  "pad_token": null,
+  "sp_model_kwargs": {},
   "tokenizer_class": "LlamaTokenizer",
-  "unk_token": ""
+  "unk_token": {
+    "__type": "AddedToken",
+    "content": "<unk>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  }
 }

@@ -1,5 +1,4 @@
 {
-  "_name_or_path": "/home/ubuntu/model_weights/backup/vicuna-13b-20230322-clean-lang-fp16/",
   "architectures": [
     "LlamaForCausalLM"
   ],
@@ -9,7 +8,7 @@
   "hidden_size": 5120,
   "initializer_range": 0.02,
   "intermediate_size": 13824,
-  "max_sequence_length": 2048,
+  "max_position_embeddings": 2048,
   "model_type": "llama",
   "num_attention_heads": 40,
   "num_hidden_layers": 40,
